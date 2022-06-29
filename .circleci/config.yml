@@ -13,8 +13,8 @@ jobs:
       - node/install
       - checkout
       - aws-cli/setup
-      # 
-      - run: installing aws eb dependecies
+      # installing aws eb dependecies
+      - run:
           name: Installing deployment dependencies
           working_directory: /
           command: |
